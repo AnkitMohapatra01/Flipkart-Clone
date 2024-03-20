@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #eeeded;
+}
+header{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.left{
+    height: 50px;
+    width: 650px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+}
+.left-logo{
+    height: 50px;
+    width: 100px;
+    padding-left: 30px;
+}
+.logo{
+    height: 50px;
+    width: 70px;
+    background-image: url(Images/logo.png);
+    background-size: cover;
+}
+.search{
+    height: 40px;
+    width: 520px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border-color: aliceblue;
+    background-color: aliceblue;
+}
+.search-logo{
+    height: 30px;
+    width: 50px;
+    padding-top: 12px;
+    padding-left: 6px;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #6a6969;
+}
+.search-logo button{
+    border: none;
+    font-size: 1rem;
+    color: #6a6969;
+    background-color: transparent;
+}
+.search-logo:hover{
+    cursor: pointer;
+}
+.search-logo button:hover{
+    cursor: pointer;
+}
+.search-bar{
+    height: 30px;
+    width: 500px;
+    background-color: transparent;
+}
+.search-bar input{
+    height: 30px;
+    width: 520px;
+    border: none;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: 0 none;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+.right{
+    height: 50px;
+    width: 770px;
+    color: #000;
+    font-size: 1rem;
+    /* background-color: red; */
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login{
+    height: 45px;
+    width: 130px;
+    line-height: 40px;
+    text-align: center;
+}
+.cart{
+    height: 45px;
+    width: 130px;
+    line-height: 40px;
+    text-align: center;
+}.seller{
+    height: 45px;
+    width: 180px;
+    line-height: 40px;
+    text-align: center;
+}
+.dots{
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    text-align: center;
+}
+.dots:hover{
+    border: 0.3px solid rgb(137, 131, 131);
+    border-radius: 8px;
+}
+.login:hover{
+    border-radius: 5px;
+    background-color: rgb(24, 24, 215);
+    color: #fff;
+}
+.right a{
+    text-decoration: none;
+    color: #000;
+}
+.right i{
+    margin-right: 8px;
+    margin-left: 8px;
+}
