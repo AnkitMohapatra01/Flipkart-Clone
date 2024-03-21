@@ -93,8 +93,8 @@ header{
     align-items: center;
 }
 .login{
-    height: 45px;
-    width: 130px;
+    height: 40px;
+    width: 105px;
     line-height: 40px;
     text-align: center;
 }
@@ -121,7 +121,7 @@ header{
 }
 .login:hover{
     border-radius: 5px;
-    background-color: rgb(24, 24, 215);
+    background-color: #0D44FE;
     color: #fff;
 }
 .right a{
@@ -131,4 +131,30 @@ header{
 .right i{
     margin-right: 8px;
     margin-left: 8px;
+}
+.content{
+    width: 97vw;
+    height: 170px;
+    margin: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cbox1{
+    height: 150px;
+    width: 8vw;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    /* background-color: black; */
+}
+.cbox1 span{
+    margin-top: 10px;
+}
+.cbox1 a{
+    text-decoration: none;
+    color: #000;
 }
